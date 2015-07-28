@@ -1,0 +1,32 @@
+{
+   "addFolder": {
+      "message": "Add folder"
+   },
+   "addNote": {
+      "message": "Add note"
+   },
+   "copySelected": {
+      "message": "Copy selected to notes"
+   },
+   "copyText": {
+      "message": "Copy"
+   },
+   "deleteConfirm": {
+      "message": "Delete directory with all its contents?"
+   },
+   "deleteNote": {
+      "message": "Delete"
+   },
+   "extDescription": {
+      "message": "Old-styled notes in your extensions sidebar. http://fidel.im/classic-notes?en"
+   },
+   "extName": {
+      "message": "Classic Notes"
+   },
+   "extPanelURL": {
+      "message": "http://fidel.im/classic-notes"
+   },
+   "newFolder": {
+      "message": "New folder"
+   }
+}

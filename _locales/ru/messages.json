@@ -1,0 +1,32 @@
+{
+   "addFolder": {
+      "message": "Создать каталог"
+   },
+   "addNote": {
+      "message": "Создать заметку"
+   },
+   "copySelected": {
+      "message": "Копировать в заметки"
+   },
+   "copyText": {
+      "message": "Скопировать в буфер"
+   },
+   "deleteConfirm": {
+      "message": "Действительно удалить каталог со всем его содержимым?"
+   },
+   "deleteNote": {
+      "message": "Удалить заметку"
+   },
+   "extDescription": {
+      "message": "Заметки в боковой панели расширений, как в Opera 12. http://fidel.im/classic-notes?ru"
+   },
+   "extName": {
+      "message": "Классические Заметки"
+   },
+   "extPanelURL": {
+      "message": "http://fidel.im/classic-notes"
+   },
+   "newFolder": {
+      "message": "Новый каталог"
+   }
+}

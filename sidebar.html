@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title></title>
+
+    <link rel="stylesheet" href="css/jquery.splitter.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+
+    <script src="js/json.pruned.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.splitter-0.14.0.js"></script>
+	<script src="js/jquery.mjs.nestedSortable.js"></script>
+
+    <script src="sidebar.js"></script>
+
+  </head>
+  <body>
+    <ul class="menu" id="context" style="display:none;">
+        <li id="copy_text"></li>
+        <li id="delete_note"></li>
+    </ul>
+	<div id="toolbar" class="noselect">
+        <div class="inner">
+			<div class="button" id="add">
+				<i class="icon"></i>
+				<i class="dropdown" id="add_menu_switcher"></i>
+				<ul class="menu" id="add_menu">
+					<li class="plus" id="add_button_menu"></li>
+					<li class="plus" id="add_folder_button_menu"></li>
+                    <!-- li>Вставить разделитель</li -->
+				</ul>
+			</div>
+            <div class="button" id="delete_current">
+                <i class="icon"></i>
+            </div>
+		</div>
+        <div class="search">
+            <span id="clearsearch">x</span><input type="text" id="searchbox" />
+        </div>
+	</div>
+	<div id="main">
+		<ol id="list">
+		</ol>
+		<div id="edit">
+			<textarea id="editor"></textarea>
+		</div>
+	</div>
+  </body>
+</html>
