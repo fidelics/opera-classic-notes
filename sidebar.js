@@ -15,13 +15,6 @@ function copy_text(text) {
     document.oncopy = undefined;
 }
 
-chrome.contextMenus.create({
-    title: chrome.i18n.getMessage("copySelected"),
-    id: "ocn_copy",
-    type: "normal",
-    contexts: ["selection"]
-});
-
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
     if (info.menuItemId === "ocn_copy") {
         var copied_text = info.selectionText;
