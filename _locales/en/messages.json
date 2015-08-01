@@ -28,5 +28,8 @@
    },
    "newFolder": {
       "message": "New folder"
+   },
+   "Paste": {
+      "message": "Paste note"
    }
 }
